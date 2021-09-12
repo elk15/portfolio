@@ -187,15 +187,19 @@ color: white;
 }
 
 #profile-link{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
+   display: flex;
+    justify-content: center;
+    
 }
 
 #profile-link a{
     text-decoration: none;
     color: white;
     font-size: 2em;
+}
+
+#profile-link a:first-of-type{
+   margin-right: 2em;
 }
 
 #profile-link a:hover{
@@ -234,6 +238,10 @@ color: white;
 
     #profile-link a{
         padding-bottom: 1em;
+    }
+
+    #profile-link a:first-of-type{
+        margin-left: 0.7em;
     }
 
     #Contact h3{
